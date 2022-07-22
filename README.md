@@ -1,6 +1,8 @@
 # DesafioSpaAngularDio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.5.
+Projeto desenvolvido em Angular (v. 14.0.5) + bootstrap + node.js como server, foi aplicado conhecimentos dado em aula pela Dio.
+
+Código do server é encontrado na pasta servidor.
 
 ## Development server
 
