@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
+import * as $ from 'jquery';
 
 @Component({
-  selector: 'spa-root',
+  selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'desafioSpaAngularDio';
+  title = 'Gerenciamento de Usuarios';
+  name = 'Oberdan Rocha';
 }

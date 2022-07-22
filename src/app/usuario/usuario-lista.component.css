@@ -1,0 +1,14 @@
+.pesquisa{
+    margin-bottom: 50px;
+}
+
+.botoes-contato{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes-contato button{
+    margin-left: 5px;
+}

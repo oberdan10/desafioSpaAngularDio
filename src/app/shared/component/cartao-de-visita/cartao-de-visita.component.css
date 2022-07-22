@@ -1,0 +1,61 @@
+p {
+    margin: 0;
+  }
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.texto p{
+    padding: -20px;
+}
+
+.texto #nome{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.texto #nome{
+    font-weight: bold;
+}
+
+.texto #email::before{
+    content: " ";
+    display: block;
+    background-image:url("../../../../assets/images/icones/email.png");
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: 5px;
+}
+
+.texto #aEmail::before{
+    content: " ";
+    display: block;
+    background-image:url("../../../../assets/images/icones/email.png");
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: 5px;
+}
+
+.imagem{
+    width: 80px;
+    height:80px;
+    border-radius: 50%;
+}

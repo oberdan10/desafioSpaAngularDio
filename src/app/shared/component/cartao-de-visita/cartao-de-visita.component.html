@@ -1,0 +1,9 @@
+<div class="conteudo">
+    <img [src]="usuario.imageUrl" [alt]="usuario.name" class="imagem">
+<div class="texto">
+    <p id="nome">{{usuario.name}}</p>
+    <p id="email">{{usuario.email}}</p>
+    <p id="aEmail">{{usuario.alternativeEmail}}</p>
+    <p class="data">Criado em: {{ usuario.dateCreated | data_br }}</p>
+</div></div>
+
